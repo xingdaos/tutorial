@@ -46,6 +46,9 @@
     <link rel="stylesheet" type="text/css" href="/tutorial/css/sidebar.css">
     
     
+<link rel="stylesheet" type="text/css" href="/tutorial/css/page.css">
+<link rel="stylesheet" type="text/css" href="/tutorial/css/post.css">
+
     <link rel="stylesheet" type="text/css" href="/tutorial/css/custom.css">
     <link rel="stylesheet" type="text/css" href="/tutorial/css/atom-one-dark.css">
     <link rel="stylesheet" type="text/css" href="/tutorial/css/lightgallery.min.css">
@@ -79,7 +82,7 @@
     <script defer type="text/javascript" src="/tutorial/js/index.js"></script>
     
     <script defer type="text/javascript" src="/tutorial/js/custom.js"></script>
-    <title>Hexo</title>
+    <title> | Hexo</title>
   </head>
   <body itemscope itemtype="http://schema.org/WebPage" lang="default"  data-spy="scroll" data-target=".list-group">
     
@@ -116,25 +119,22 @@
         <div class="main-container">
           <div class="content">
             
-
-<div id="index" class="index">
+<div id="post" class="post">
   
-  <article class="index-post card" itemscope itemtype="http://schema.org/Article">
+  <article class="post-container card" itemscope itemtype="http://schema.org/Article">
     <div class="post-block">
       <link itemprop="mainEntityOfPage" href="https://xingdaos.github.io/tutorial/tutorial/2018/06/03/xx-net双击start.vbs无响应/">
       <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-        <meta itemprop="name" content="John Doe">
-        <meta itemprop="description" content="">
-        <meta itemprop="image" content="/tutorial/images/avatar.png">
+       <meta itemprop="name" content="John Doe">
+       <meta itemprop="description" content="">
+       <meta itemprop="image" content="/tutorial/images/avatar.png">
       </span>
       <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-        <meta itemprop="name" content="Hexo">
+       <meta itemprop="name" content="Hexo">
       </span>
     </div>
     <header class="post-header">
-      <h1 class="post-title" itemprop="name headline">
-        <a class="post-title-link post-title-link-external" href="/tutorial/2018/06/03/xx-net双击start.vbs无响应/" itemprop="url"></a>
-      </h1>
+      <h1 class="post-title" itemprop="name headline"></h1>
       <div class="post-meta">
         
         <span class="post-date">
@@ -148,72 +148,86 @@
       </div>
     </header>
     <main class="post-main" itemprop="articleBody">
-      
       <h1 id="环境："><a href="#环境：" class="headerlink" title="环境："></a>环境：</h1><ul>
 <li>win10</li>
 <li>XX-Net-3.11.15<h1 id="问题："><a href="#问题：" class="headerlink" title="问题："></a>问题：</h1>xx-net双击start.vbs无响应<h1 id="解决方案："><a href="#解决方案：" class="headerlink" title="解决方案："></a>解决方案：</h1>进入<code>$xx-net-installPath/ code/default/python27/1.0</code>目录后，将<code>python.exe</code>和<code>pythonw.exe</code>设置为以管理员身份运行（<em>选中后右键→属性→兼容性→以管理员身份运行此程序→确定</em>）即可；</li>
 </ul>
 
-      
     </main>
     <footer class="post-footer">
+      
       
     </footer>
   </article>
   
-  <article class="index-post card" itemscope itemtype="http://schema.org/Article">
-    <div class="post-block">
-      <link itemprop="mainEntityOfPage" href="https://xingdaos.github.io/tutorial/tutorial/2018/06/03/hello-world/">
-      <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-        <meta itemprop="name" content="John Doe">
-        <meta itemprop="description" content="">
-        <meta itemprop="image" content="/tutorial/images/avatar.png">
-      </span>
-      <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-        <meta itemprop="name" content="Hexo">
-      </span>
-    </div>
-    <header class="post-header">
-      <h1 class="post-title" itemprop="name headline">
-        <a class="post-title-link post-title-link-external" href="/tutorial/2018/06/03/hello-world/" itemprop="url">Hello World</a>
-      </h1>
-      <div class="post-meta">
-        
-        <span class="post-date">
-          <i class="far fa-calendar-plus"></i><span><time title="post-date" itemprop="dateCreated datePublished" datetime="2018-06-03T12:38:36+08:00">2018-06-03 12:38:36</time></span>
-        </span>
-        
-        
-        
-        
-        
-      </div>
-    </header>
-    <main class="post-main" itemprop="articleBody">
-      
-      <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">"My New Post"</span><br></code></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+  
+<div class="reward" id="reward">
+  <p>坚持原创技术分享，您的支持是我前进的动力！</p>
+  <button id="reward-button" class="button" disable="enable">Reward</button>
+  <div id="qr" class="qr" style="display: none;">
+    
+    
+    
+  </div>
+</div>
 
-      
-    </main>
-    <footer class="post-footer">
-      
-    </footer>
-  </article>
+
   
+  
+  <div class="post-nav">
+    <div class="post-nav-next post-nav-item">
+      
+      <a href="/tutorial/2018/06/03/hello-world/" rel="next" title="Hello World"><i class="fas fa-angle-left"></i><span class="nav-title">Hello World</span></a>
+      
+    </div>
+    <div class="post-nav-prev post-nav-item">
+      
+    </div>
+  </div>
   
   
   
 
 <div class="comments" id="comments">
   
+  
+  <div class="commentjs" id="comment-thread"></div>
+  <link rel="stylesheet" href="/tutorial/css/commentjs.css">
+  <script defer type="text/javascript" src="/tutorial/js/marked.min.js"></script>
+  <script defer type="text/javascript" src="/tutorial/js/timeago.min.js"></script>
+  <script defer type="text/javascript" src="/tutorial/js/highlight.min.js"></script>
+  <script defer type="text/javascript" src="/tutorial/js/commentjs.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function () {
+    getComments({
+      "type": "github",
+      "user": "xingdaos",
+      "repo": "tutorial",
+      "client_id": "94eaed2feb347f6b089b",
+      "client_secret": "abf3fc57bed6083cf8d8e4c52ea8bc92846bf49b",
+      "no_comment": "This page has no comment, go to comment now!",
+      "go_to_comment": "Go to Comment",
+      "issue_title": "",
+      "btn_class": "button",
+      "comments_target": "#comment-thread"
+    });
+    marked.setOptions({
+      "highlight": function (code, lang) {
+        return hljs.highlightAuto(code).value;
+      }
+    });
+    function mark() {
+      var markdowns = document.getElementsByClassName("markdown");
+      for (var i = 0; i < markdowns.length; ++i){
+        if (markdowns[i].innerHTML) {
+          markdowns[i].innerHTML = marked(markdowns[i].innerHTML);
+        }
+      }
+    }
+    window.addEventListener("DOMContentLoaded", mark, false);
+    window.addEventListener("load", mark, false);
+  });
+  </script>
   
   
 </div>
@@ -262,6 +276,20 @@
 
 
   <div class="sidebar-sticky">
+    
+    
+
+
+
+
+<hr>
+<div class="post-toc sidebar-item" id="toc-div">
+  <div><i class="fas fa-list-ol"></i>Table of Contents</div>
+  <div class="post-toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#环境："><span class="toc-text">环境：</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#问题："><span class="toc-text">问题：</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#解决方案："><span class="toc-text">解决方案：</span></a></li></ol></div>
+</div>
+
+
+
     
     
     

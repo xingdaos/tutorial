@@ -3,6 +3,15 @@
   
     
     <entry>
+      <title></title>
+      <link href="/tutorial/2018/06/03/xx-net%E5%8F%8C%E5%87%BBstart.vbs%E6%97%A0%E5%93%8D%E5%BA%94/"/>
+      <url>/tutorial/2018/06/03/xx-net%E5%8F%8C%E5%87%BBstart.vbs%E6%97%A0%E5%93%8D%E5%BA%94/</url>
+      <content type="html"><![CDATA[<h1 id="环境："><a href="#环境：" class="headerlink" title="环境："></a>环境：</h1><ul><li>win10</li><li>XX-Net-3.11.15<h1 id="问题："><a href="#问题：" class="headerlink" title="问题："></a>问题：</h1>xx-net双击start.vbs无响应<h1 id="解决方案："><a href="#解决方案：" class="headerlink" title="解决方案："></a>解决方案：</h1>进入<code>$xx-net-installPath/ code/default/python27/1.0</code>目录后，将<code>python.exe</code>和<code>pythonw.exe</code>设置为以管理员身份运行（<em>选中后右键→属性→兼容性→以管理员身份运行此程序→确定</em>）即可；</li></ul>]]></content>
+      
+      
+    </entry>
+    
+    <entry>
       <title>Hello World</title>
       <link href="/tutorial/2018/06/03/hello-world/"/>
       <url>/tutorial/2018/06/03/hello-world/</url>
